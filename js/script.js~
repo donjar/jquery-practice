@@ -10,7 +10,7 @@ function change_size() {
 		for (var i = 1; i <= sides; i++) {
 			$(".column").append("<div class='square' style='width: " + size / sides + "px; height: " + size / sides + "px;'></div>");
 		}
-		$("#size").html(sides);
+		$("#container").html(sides);
 	} else {
 		alert("Please enter a positive integer.");
 		change_size();

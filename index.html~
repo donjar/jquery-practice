@@ -7,7 +7,6 @@
 </head>
 <body>
 	<button>Resize</button>
-	Current size: <span id="size">16</span>
 	<div id='container'></div>
 </body>file:///home/donjar/jquery-practice/index.html
 </html>
